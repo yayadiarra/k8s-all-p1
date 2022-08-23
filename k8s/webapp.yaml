@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: ////devopstrainingschool/knote-jenkins:68676665v1
+          image: /////devopstrainingschool/knote-jenkins:6968676665v1
           ports:
             - containerPort: 8080
           env:
