@@ -16,3 +16,13 @@ spec:
             name: my-app-service
             port:
               number: 80
+  - host: app2.yannickeboo.com
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: my-knote-service
+            port:
+              number: 80
